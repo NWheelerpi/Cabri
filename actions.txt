@@ -1,0 +1,26 @@
+Check how much bricks are lightened.
+Move Carb heater switch to HOT as necessar.
+Check bricks appear and temp gets out of yellow and CONTINUE FLIGHT.
+Wait to apply full power. Allow to warm-up.
+Check boost pump ON.
+Reduce power and reach Vy=50kts IAS
+Switch boost pump OFF. 
+Check for a decrease.
+Check if LOW FUEL warning light on.
+Check ALT switch ON. Battery is not being charged. Turn all non-essential equipment OFF.
+Monitor OIL P warning light.
+
+Normal as cold starting and during engine warm-up.
+Normal at idle.
+
+
+~If in hover: land or depart in translation.
+~If in translation: reduce power.
+~If stays: avoid prolonged flight at low power setting
+~In case of carb. icing: LAND AS SOON AS POSSIBLE. Carry-on a cautious landing
+~If indication stays into red arc: LAND AS SOON AS POSSIBLE. Once landed, keep nominal NR for cooling
+~Cold Starting: allow engine to warm-up.
+~Flight: reduce power
+~If stays in red arc: LAND AS SOON AS POSSIBLE
+~If stays in yellow arc: LAND AS SOON AS POSSIBLE
+~If ON: LAND IMMEDIATELY
