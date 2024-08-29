@@ -12,6 +12,6 @@ for item in parameters:
         sub_actions=item[2]
     actions.append(sub_actions)
 
-for i in parameters
+for i in parameters:
     st.markdown(i)
 st.markdown(actions)
