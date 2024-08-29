@@ -1,5 +1,5 @@
 Check how much bricks are lightened. |
-Move Carb heater switch to HOT as necessar. |
+Move Carb heater switch to HOT as necessary. |
 Check bricks appear and temp gets out of yellow and CONTINUE FLIGHT. |
 Wait to apply full power. Allow to warm-up. |
 Check boost pump ON. |
