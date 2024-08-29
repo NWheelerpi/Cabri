@@ -6,7 +6,7 @@ parameters = np.genfromtxt('https://raw.githubusercontent.com/NWheelerpi/Cabri/m
 
 actions=[]
 for item in parameters:
-    if ' \ ' in item[2]:
+    if ' \ ' in item[1]:
         sub_actions=item[2].split(' \ ')
     else:
         sub_actions=item[2]
