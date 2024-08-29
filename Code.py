@@ -12,7 +12,7 @@ for item in parameters:
             if i not in actions:
                 actions.append(i)
     else:
-        if i not in actions:
+        if item[1] not in actions:
             actions.append(str(item[1]))
 
 for i in parameters:
