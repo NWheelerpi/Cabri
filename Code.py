@@ -25,4 +25,6 @@ for item in parameters:
     st.markdown(acts)
     st.markdown(item)
 
+for item in parameters:
+    st.markdown(item)
 st.markdown(parameters)
