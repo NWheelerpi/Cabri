@@ -27,4 +27,5 @@ for item in parameters:
 
 for item in parameters:
     st.markdown(item)
+    st.markdown(item[1])
 st.markdown(parameters)
