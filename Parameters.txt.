@@ -1,12 +1,13 @@
-Carb T, Yellow arc | Check how much bricks are lightened \ Move Carb heater switch to HOT as necessary \ Check bricks appear and temp gets out of yellow and CONTINUE FLIGHT | LAND AS SOON AS POSSIBLE
-CHT, Red arc | If in hover, land or depart in translation | LAND AS SOON AS POSSIBLE
-Oil T, Red arc | If in hover, land or depart in translation | LAND AS SOON AS POSSIBLE
-Oil T, Yellow arc | Wait to apply full power | 
-Oil P, Red Arc (High) | Cold Starting: allow engine to warm-up | LAND AS SOON AS POSSIBLE
-Oil P, Yellow Arc (High) | Normal as cold starting and during engine warm-up | LAND AS SOON AS POSSIBLE
-Oil P, Yellow Arc (Low) | Normal at idle | 
-Oil P, Red Arc (Low) | LAND AS SOON AS POSSIBLE | LAND IMMEDIATELY
-Fuel P, Low | Check boost pump ON | LAND AS SOON AS POSSIBLE
-Fuel P, High | Switch boost pump OFF | LAND AS SOON AS POSSIBLE
-Low Fuel, Red | Check with LOW FUEL warning light | LAND IMMEDIATELY
-Batt, Yellow | Check ATT switch ON | LAND AS SOON AS POSSIBLE
+Value,exceeds|check|actions|type
+Carb T, Yellow arc | Check how much bricks are lightened | Move Carb heater switch to HOT as necessary \ Check bricks appear and temp gets out of yellow and CONTINUE FLIGHT | LAND AS SOON AS POSSIBLE
+CHT, Red arc | | If in hover, land or depart in translation | LAND AS SOON AS POSSIBLE
+Oil T, Red arc  | | If in hover, land or depart in translation | LAND AS SOON AS POSSIBLE
+Oil T, Yellow arc | | Wait to apply full power | 
+Oil P, Red Arc (High) | | Cold Starting: allow engine to warm-up | LAND AS SOON AS POSSIBLE
+Oil P, Yellow Arc (High) | | Normal as cold starting and during engine warm-up | LAND AS SOON AS POSSIBLE
+Oil P, Yellow Arc (Low) | | Normal at idle | 
+Oil P, Red Arc (Low) | | LAND AS SOON AS POSSIBLE | LAND IMMEDIATELY
+Fuel P, Low | | Check boost pump ON | LAND AS SOON AS POSSIBLE
+Fuel P, High | | Switch boost pump OFF | LAND AS SOON AS POSSIBLE
+Low Fuel, Red | | Check with LOW FUEL warning light | LAND IMMEDIATELY
+Batt, Yellow | | Check ATT switch ON | LAND AS SOON AS POSSIBLE
