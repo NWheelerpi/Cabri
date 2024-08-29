@@ -6,8 +6,8 @@ parameters = np.genfromtxt('https://raw.githubusercontent.com/NWheelerpi/Cabri/m
 
 actions=[]
 for item in parameters:
-    if ' \ ' in item[2]:
-        sub_actions=item[2].split(' \ ')
+    if '\\' in item[2]:
+        sub_actions=item[2].split('\\')
         for i in sub_actions:
             if i not in actions:
                 actions.append(i)
