@@ -30,7 +30,7 @@ for item in parameters:
         if inp==None:
             pass
         #st.markdown(inp)
-        acts+=str(actions[inp])
+        acts+=str(actions[inp-1])
     item[1]=acts
     st.markdown(item)
 
