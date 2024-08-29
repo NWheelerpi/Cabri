@@ -1,4 +1,4 @@
 import numpy as numpy
 
-parameters = open('nwheelerpi/cabri/main/Parameters.txt', 'r')
+parameters = np.genfromtxt('nwheelerpi/cabri/main/Parameters.txt', delimiter='|',missing_values='NA')
 st.markdown(parameters)
