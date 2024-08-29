@@ -3,7 +3,7 @@ import streamlit as st
 
 # Extract parameter data
 parameters = np.genfromtxt('https://raw.githubusercontent.com/NWheelerpi/Cabri/main/Parameters.txt.', delimiter='|',dtype=str)
-actions= np.genfromtxt('https://raw.githubusercontent.com/NWheelerpi/Cabri/main/actions.txt', delimiter='|',dtype=str,missing_values='',filling_values='None')
+actions= np.genfromtxt('https://raw.githubusercontent.com/NWheelerpi/Cabri/main/actions.txt', delimiter='|',dtype=str,missing_values='',filling_values=None)
 #
 #actions=[]
 #for item in parameters:
