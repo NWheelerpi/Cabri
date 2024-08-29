@@ -24,6 +24,8 @@ for item in parameters:
         try:
             inp=int(i)
         except:
+            inp=None
+        if inp==None:
             pass
         st.markdown(inp)
         acts+=actions[inp]
