@@ -7,11 +7,11 @@ actions= np.genfromtxt('https://raw.githubusercontent.com/NWheelerpi/Cabri/main/
 
 st.markdown(actions)
 st.markdown(len(actions))
-for item in parameters:
-    st.markdown(item)
-    st.markdown(item[1])
+for item in range(len(parameters)):
+    st.markdown(parameters[item])
+    st.markdown(parameters[item][1])
     acts=''
-    numbstr=item[1].split(',')
+    numbstr=parameters[item][1].split(',')
     for i in numbstr:
         try:
             inp=int(i)-1
@@ -21,9 +21,9 @@ for item in parameters:
             pass
         #st.markdown(inp)
         acts+=str(actions[inp][0])
-    item[1]=acts
+    parameters[item][1]=acts
     st.markdown('Act {}'.format(acts))
-    st.markdown(item)
+    st.markdown(parameters[item])
 
 for item in parameters:
     st.markdown(item)
