@@ -17,7 +17,7 @@ actions= np.genfromtxt('https://raw.githubusercontent.com/NWheelerpi/Cabri/main/
 #            actions.append(str(item[2]))
 st.markdown(actions[0])
 for item in parameters:
-    st.markdown(item)
+    st.markdown(item,item[1])
     acts=''
     numbstr=item[1].split(',')
     for i in numbstr:
@@ -28,7 +28,7 @@ for item in parameters:
         if inp==None:
             pass
         #st.markdown(inp)
-        acts+=actions[inp]
+        acts+=str(actions[inp])
     item[1]=acts
     st.markdown(item)
 
