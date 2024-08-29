@@ -24,13 +24,13 @@ for item in parameters:
     numbstr=item[1].split(',')
     for i in numbstr:
         try:
-            inp=int(i)
+            inp=int(i)-1
         except:
             inp=None
         if inp==None:
             pass
         #st.markdown(inp)
-        acts+=str(actions[inp-1])
+        acts+=str(actions[inp])
     item[1]=acts
     st.markdown(item)
 
