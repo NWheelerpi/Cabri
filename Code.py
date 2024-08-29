@@ -6,6 +6,12 @@ parameters = np.genfromtxt('https://raw.githubusercontent.com/NWheelerpi/Cabri/m
 
 actions=[]
 for item in parameters:
-    if '\' in item 
+    if '\' in item[2]:
+        sub_actions=item[2].split('\')
+    else:
+        sub_actions=item[2]
+    actions.append(sub_actions)
 
-st.markdown(parameters[0])
+for i in parameters
+    st.markdown(i)
+st.markdown(actions)
