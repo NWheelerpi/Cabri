@@ -15,7 +15,7 @@ actions= np.genfromtxt('https://raw.githubusercontent.com/NWheelerpi/Cabri/main/
 #    else:
 #        if item[2] not in actions:
 #            actions.append(str(item[2]))
-
+st.markdown(actions[0])
 for item in parameters:
     st.markdown(item)
     acts=''
@@ -23,4 +23,3 @@ for item in parameters:
     for i in numbstr:
         acts+=actions[i]
     st.markdown(acts)
-st.markdown(actions)
