@@ -24,3 +24,5 @@ Normal at idle.
 ~If stays in red arc: LAND AS SOON AS POSSIBLE
 ~If stays in yellow arc: LAND AS SOON AS POSSIBLE
 ~If ON: LAND IMMEDIATELY
+
+LAND AS SOON AS POSSIBLE
