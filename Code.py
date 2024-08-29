@@ -6,7 +6,7 @@ parameters = np.genfromtxt('https://raw.githubusercontent.com/NWheelerpi/Cabri/m
 actions= np.genfromtxt('https://raw.githubusercontent.com/NWheelerpi/Cabri/main/actions.txt', delimiter='|',dtype=str)
 parameters=parameters.tolist()
 
-st.markdown(actions)
+#st.markdown(actions)
 
 # Exchange string of numbers for actions from actions list
 for item in range(len(parameters)):
@@ -24,5 +24,5 @@ for item in range(len(parameters)):
 
 for item in parameters:
     st.markdown(item)
-st.markdown(parameters)
+#st.markdown(parameters)
 
