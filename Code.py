@@ -22,6 +22,7 @@ for item in parameters:
         #st.markdown(inp)
         acts+=str(actions[inp][0])
     item[1]=acts
+    st.markdown(acts)
     st.markdown(item)
 
 st.markdown(parameters)
