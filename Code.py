@@ -20,5 +20,7 @@ for item in parameters:
     st.markdown(item)
     acts=''
     numbstr=item[1].split(',')
-    st.markdown(numbstr)
+    for i in numbstr:
+        acts+=actions[i-1]
+    st.markdown(acts)
 st.markdown(actions)
