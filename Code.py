@@ -5,7 +5,7 @@ import streamlit as st
 parameters = np.genfromtxt('https://raw.githubusercontent.com/NWheelerpi/Cabri/main/Parameters.txt.', delimiter='|',dtype=str,skip_header=1)
 actions= np.genfromtxt('https://raw.githubusercontent.com/NWheelerpi/Cabri/main/actions.txt', delimiter='|',dtype=str)
 
-st,markdown(type(parameters))
+st.markdown(type(parameters))
 st.markdown(actions)
 st.markdown(len(actions))
 for item in range(len(parameters)):
