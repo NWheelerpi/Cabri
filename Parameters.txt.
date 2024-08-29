@@ -1,13 +1,13 @@
 Value,exceeds|actions|type
-Carb T, Yellow arc | 1,2,3,19,20 | LAND AS SOON AS POSSIBLE
-CHT, Red arc | 17,18,21 | LAND AS SOON AS POSSIBLE
-Oil T, Red arc  | 17,18,21 | LAND AS SOON AS POSSIBLE
+Carb T, Yellow arc | 1,2,3,16,17 | LAND AS SOON AS POSSIBLE
+CHT, Red arc | 14,15,18 | LAND AS SOON AS POSSIBLE
+Oil T, Red arc  | 14,14,18 | LAND AS SOON AS POSSIBLE
 Oil T, Yellow arc | 4 | 
-Oil P, Red Arc (High) | 22,23,24 | LAND AS SOON AS POSSIBLE
-Oil P, Yellow Arc (High) | 22,23,25 | LAND AS SOON AS POSSIBLE
-Oil P, Yellow Arc (Low) | 14 | 
-Oil P, Red Arc (Low) | 28,11,26 | LAND IMMEDIATELY
+Oil P, Red Arc (High) | 19,20,21 | LAND AS SOON AS POSSIBLE
+Oil P, Yellow Arc (High) | 19,20,22 | LAND AS SOON AS POSSIBLE
+Oil P, Yellow Arc (Low) | 13 | 
+Oil P, Red Arc (Low) | 24,11,23 | LAND AS SOON AS POSSIBLE
 Fuel P, Low | 5,6| LAND AS SOON AS POSSIBLE
 Fuel P, High | 7,8 | LAND AS SOON AS POSSIBLE
-Low Fuel, Red | 9,26 | LAND IMMEDIATELY
+Low Fuel, Red | 9,23 | LAND IMMEDIATELY
 Batt, Yellow | 10 | LAND AS SOON AS POSSIBLE
