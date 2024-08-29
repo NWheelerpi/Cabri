@@ -9,7 +9,7 @@ for item in parameters:
     if ' \ ' in item[1]:
         sub_actions=item[1].split(' \ ')
     else:
-        sub_actions=item[1]
+        sub_actions=str(item[1])
     actions.append(sub_actions)
 
 for i in parameters:
