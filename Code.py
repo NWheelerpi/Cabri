@@ -1,4 +1,4 @@
 
 
-parameters = open("parameters.txt", 'r')
+parameters = open("Parameters.txt", 'r')
 st.markdown(parameters)
