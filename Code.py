@@ -4,7 +4,7 @@ import streamlit as st
 # Extract parameter data
 parameters = np.genfromtxt('https://raw.githubusercontent.com/NWheelerpi/Cabri/main/Parameters.txt.', delimiter='|',dtype=str)
 actions= np.genfromtxt('https://raw.githubusercontent.com/NWheelerpi/Cabri/main/actions.txt', delimiter=1,dtype=str)
-
+#
 #actions=[]
 #for item in parameters:
 #    if '\\' in item[2]:
