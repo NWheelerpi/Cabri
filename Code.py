@@ -23,7 +23,7 @@ for item in range(len(parameters)):
         acts+=str(actions[inp][0])
     parameters[item][1]=acts
     st.markdown('Act {}'.format(acts))
-    st.markdown(parameters[item][1])
+    st.markdown(len(parameters[item][1]))
 
 for item in parameters:
     st.markdown(item)
