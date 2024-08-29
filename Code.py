@@ -19,6 +19,6 @@ actions= np.genfromtxt('https://raw.githubusercontent.com/NWheelerpi/Cabri/main/
 for item in parameters:
     st.markdown(item)
     acts=''
-    for numb in item[1]:
-        acts+=actions[numb]
+    numbstr=item[1].split(',')
+    st.markdown(numbstr)
 st.markdown(actions)
