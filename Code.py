@@ -1,6 +1,6 @@
 import numpy as np
 
-parameters = np.genfromtxt('https://github.com/NWheelerpi/Cabri/blob/a046b44fc315f65b8cebdb2e7d7a713d1c2d9b28/Parameters.txt.', delimiter='|',dtype=none)
+parameters = np.genfromtxt('https://github.com/NWheelerpi/Cabri/blob/a046b44fc315f65b8cebdb2e7d7a713d1c2d9b28/Parameters.txt.', delimiter='|',dtype=None)
 #parameters = open('https://github.com/NWheelerpi/Cabri/blob/a046b44fc315f65b8cebdb2e7d7a713d1c2d9b28/Parameters.txt.','r')
 st.markdown(parameters)
 parameters.close()
