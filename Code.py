@@ -29,4 +29,4 @@ for item in parameters:
             pass
         st.markdown(inp)
         acts+=actions[inp]
-    st.markdown(acts)
+        st.markdown(acts)
